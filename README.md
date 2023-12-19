@@ -13,7 +13,18 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-This project allows LLM to generate code, execute it, receive feedback, debug, and answer questions based on the whole process. It is designed to be intuitive and versatile, capable of dealing with multiple languages and frameworks.
+让Llama2执行、调试和保存代码，并访问互联网 
+
+本项目旨在赋予一个语言学习模型（LLM）生成、执行、调试代码以及回答查询的能力。 考虑一个用户请求："给我最后一个获得布克奖图书的亚马逊链接"。 这个任务涉及访问百科网站或搜索引擎并搜索亚马逊，
+工作流程如下： 
+步骤1：用户提出请求。
+步骤2：LLM生成代码以执行请求。 
+步骤3：如有必要，执行并调试代码。 
+步骤4：LLM根据结果回答用户的查询。 
+步骤5：记录并抽象该过程以备将来使用。 
+
+如果我们的LLM具有可重用的抽象化代码来执行此类任务，我们可以更有效地执行更复杂的任务。
+
 
 [The purpose and direction of the project](https://github.com/SeungyounShin/Llama2-Code-Interpreter/wiki)
 
